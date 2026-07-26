@@ -11,7 +11,7 @@ function ApplicantsTable() {
 //  console.log(id) 
 async function getApplicants(){
   try {
-    const res = await fetch(`http://localhost:4040/api/v1/application/${id}/applicants `,{
+    const res = await fetch(`http://https://job-portal-backend-si47.onrender.com/api/v1/application/${id}/applicants `,{
        method:"GET",
        credentials:"include"
     });

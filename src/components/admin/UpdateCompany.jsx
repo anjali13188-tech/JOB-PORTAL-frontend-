@@ -35,7 +35,7 @@ export default function UpdateCompany() {
         formData.append("file", input.file);
       }
       const { data } = await axios.put(
-        `http://localhost:4040/api/v1/company/update/${cid}`,
+        `http://https://job-portal-backend-si47.onrender.com/api/v1/company/update/${cid}`,
         formData,
         {
           headers: {

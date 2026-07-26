@@ -7,7 +7,7 @@ import { useDispatch } from "react-redux"
 const useGetAllJobs = () => {
   const dispatch = useDispatch()
   async function fetchAllJobs() {
-    const { data } = await axios.get(`http://localhost:4040/api/v1/job/all`,  // ✅ yahan change karo
+    const { data } = await axios.get(`http://https://job-portal-backend-si47.onrender.com/api/v1/job/all`,  // ✅ yahan change karo
  {
       withCredentials: true
     })

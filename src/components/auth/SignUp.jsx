@@ -42,7 +42,7 @@ export default function SignUp() {
             }
 
             // console.log(userData)
-            const { data } = await axios.post(`http://localhost:4040/api/v1/users/register`, userData,{
+            const { data } = await axios.post(`http://https://job-portal-backend-si47.onrender.com/api/v1/users/register`, userData,{
                 headers:{
                     "Content-Type":"multipart/form-data"
                 }
