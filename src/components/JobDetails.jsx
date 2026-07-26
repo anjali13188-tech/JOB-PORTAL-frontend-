@@ -55,7 +55,7 @@ function JobDetails() {
         const getJobById = async () => {
             // console.log("ok")
             try {
-                const { data } = await axios.get(`http://https://job-portal-backend-si47.onrender.com/api/v1/job/${id}`,
+                const { data } = await axios.get(`https://job-portal-backend-si47.onrender.com/api/v1/job/${id}`,
 
                     { withCredentials: true }
                 )

@@ -12,7 +12,7 @@ const useGetCompanyById = (cid) => {
       try {
 
         const { data } = await axios.get(
-          `http://https://job-portal-backend-si47.onrender.com/api/v1/company/${cid}`,
+        `https://job-portal-backend-si47.onrender.com/api/v1/company/${cid}`,
           { withCredentials: true }
         )
 

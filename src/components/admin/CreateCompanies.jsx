@@ -23,7 +23,7 @@ export default function CreateCompanies() {
             toast.error("company name is required")
             return
         }
-            const { data } = await axios.post("http://https://job-portal-backend-si47.onrender.com/api/v1/company/create", { name },
+            const { data } = await axios.post(`https://job-portal-backend-si47.onrender.com`, { name },
                 { withCredentials: true }
             )
             // console.log(data)

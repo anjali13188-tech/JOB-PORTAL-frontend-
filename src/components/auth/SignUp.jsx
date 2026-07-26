@@ -45,7 +45,8 @@ export default function SignUp() {
             const { data } = await axios.post(`https://job-portal-backend-si47.onrender.com/api/v1/users/register`, userData,{
                 headers:{
                     "Content-Type":"multipart/form-data"
-                }
+                },
+                 withCredentials: true
             })
             if (data?.success) {
                 toast.success(data?.message)

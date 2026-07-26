@@ -44,7 +44,7 @@ export default function PostJob() {
         e.preventDefault()
         try {
             console.log(input)
-            const { data } = await axios.post(`http://https://job-portal-backend-si47.onrender.com/api/v1/job/add`, input,
+            const { data } = await axios.post(`https://job-portal-backend-si47.onrender.com/api/v1/job/add`, input,
                 {
                     withCredentials: true
                 }
